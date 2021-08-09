@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+* {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background: rgb(131, 131, 131);
+    overflow-x: hidden;
+}
+
+.App {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+button {
+    color: white;
+    width: 100px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 1px #ccc;
+}
+
+.btn {
+    padding: 4px 10px;
+    font-size: 1.2em;
+    margin: 0 10px;
+    border: none;
+    background: none;
+    outline: none;
+    border: 2px solid rgb(22, 22, 22);
+    transition: 0.5s all ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #111;
+    color: #fff;
+}
+
+.navbar {
+    overflow-x: hidden;
+}
+
+
+/* For pdf */
+
+.react-pdf__Page {
+    margin-top: 10px;
+}
+
+.react-pdf__Page__textContent {
+    align-items: center;
+}
+
+.react-pdf__Page__annotations.annotationLayer {
+    padding: 10px;
+}
+
+.react-pdf__Page__canvas {
+    margin: auto;
+}
